@@ -7,3 +7,14 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Property.create!({
+  name: "Inya Lake",
+  headline: "Inya lake hotel lorem",
+  description: "lorem ipsum lorem ipsum lorem ipsum",
+  address_1: "bahan",
+  address_2: "",
+  city: "Yangon",
+  state: "Yangon",
+  country: "Myanmar"
+})
