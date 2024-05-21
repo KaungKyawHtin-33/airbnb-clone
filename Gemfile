@@ -22,3 +22,5 @@ end
 group :development do
   gem "web-console"
 end
+
+gem "faker", "~> 3.3"

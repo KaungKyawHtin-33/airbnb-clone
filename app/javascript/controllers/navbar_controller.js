@@ -9,10 +9,6 @@ export default class extends Controller {
   }
 
   openUserMenu() {
-    toggleOpenUserMenu(this.openUserMenuTarget)
+    toggle(this.openUserMenuTarget)
   }
-}
-
-function toggleOpenUserMenu(element) {
-  toggle(element)
 }
