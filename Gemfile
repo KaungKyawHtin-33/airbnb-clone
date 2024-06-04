@@ -4,8 +4,11 @@ ruby "3.2.3"
 
 gem "bootsnap", require: false
 gem "devise", "~> 4.9"
+gem "faker", "~> 3.3"
+gem "image_processing", ">= 1.2"
 gem "importmap-rails"
 gem "jbuilder"
+gem "money-rails", "~> 1.12"
 gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
@@ -22,5 +25,3 @@ end
 group :development do
   gem "web-console"
 end
-
-gem "faker", "~> 3.3"
